@@ -1,0 +1,49 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RoleController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\MemberController;
+use App\Http\Controllers\DashboardController;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/membership', function () {
+    return view('membership');
+})->name('membership');
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/team', function () {
+    return view('team');
+})->name('team');
+
+Route::get('/news', function () {
+    return view('news');
+})->name('news');
+
+Auth::routes();
+
+Route::resource('members', MemberController::class);
+
+Route::group(['prefix' => 'app', 'as' => 'app.', 'middleware' => 'auth'], function () {
+    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    Route::resource('users', UserController::class);
+    Route::resource('roles', RoleController::class);
+    Route::resource('members', MemberController::class);
+});
