@@ -24,6 +24,7 @@ Route::get('/', function () {
 })->name('welcome');
 
 Route::get('/artisan-fresh', function () {
+   Artisan::call('db:wipe');
    Artisan::call('migrate:fresh --seed');
 });
 
