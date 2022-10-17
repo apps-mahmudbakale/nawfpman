@@ -78,6 +78,15 @@
                         <line x1="14" y1="4" x2="10" y2="20" />
                     </svg>
                 </th>
+                <th>LGA <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <polyline points="7 8 3 12 7 16" />
+                    <polyline points="17 8 21 12 17 16" />
+                    <line x1="14" y1="4" x2="10" y2="20" />
+                </svg>
+            </th>
                     <th>Address <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
                         height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
@@ -108,6 +117,7 @@
                             <td>{{ $member->email }}</td>
                             <td>{{ $member->phone }}</td>
                             <td>{{ $member->state }}</td>
+                            <td>{{ $member->lga }}</td>
                             <td>{{ $member->address }}</td>
                             <td>{{ $member->created_at->diffForHumans() }}</td>
                             <td class="text-right">

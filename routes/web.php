@@ -1,10 +1,12 @@
 <?php
 
+use Jajo\NG;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\MemberController;
 use App\Http\Controllers\DashboardController;
+use Illuminate\Support\Facades\Artisan;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,8 +23,14 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
+Route::get('/artisan', function () {
+   Artisan::call('migrate:fresh --seed');
+});
+
 Route::get('/membership', function () {
-    return view('membership');
+    $ng = new NG();
+    $states = $ng->states;
+    return view('membership', compact('states'));
 })->name('membership');
 
 Route::get('/about', function () {

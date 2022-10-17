@@ -18,6 +18,7 @@ class Members extends Base
                 ->orWhere('phone', 'like', '%'. $this->search . '%')
                 ->orWhere('email', 'like', '%'. $this->search . '%')
                 ->orWhere('state', 'like', '%'. $this->search . '%')
+                ->orWhere('lga', 'like', '%'. $this->search . '%')
                 ->orWhere('address', 'like', '%' . $this->search . '%')
                 ->paginate(10);
 

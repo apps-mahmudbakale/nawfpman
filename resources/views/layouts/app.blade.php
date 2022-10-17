@@ -15,8 +15,7 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="robots" content="noindex,nofollow,noarchive" />
-    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{asset('favicon.ico')}}" type="image/x-icon" />
     <!-- CSS files -->
     <link href="{{ asset('css/admin.css') }}" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('css/summernote.min.css') }}">
@@ -30,7 +29,6 @@
 </head>
 
 <body class="antialiased">
-    @include('partials.sidebar')
     <div class="page">
         @include('partials.top')
         <div class="content">

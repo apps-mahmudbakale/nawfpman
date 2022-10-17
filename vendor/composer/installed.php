@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'e82248e94925955e289eacbae1ab2fd2bc5e7c1d',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -349,6 +349,15 @@
                 0 => 'v9.31.0',
             ),
         ),
+        'jajo/ng' => array(
+            'pretty_version' => '1.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jajo/ng',
+            'aliases' => array(),
+            'reference' => 'e167dcc496c5fe53e7b3264954a35fdb19e7169e',
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -365,12 +374,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'e82248e94925955e289eacbae1ab2fd2bc5e7c1d',
             'dev_requirement' => false,
         ),
         'laravel/pint' => array(

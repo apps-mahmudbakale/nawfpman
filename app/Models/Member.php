@@ -15,6 +15,7 @@ class Member extends Model
         'email',
         'phone',
         'state',
+        'lga',
         'address'
     ];
 }

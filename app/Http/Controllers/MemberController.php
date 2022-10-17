@@ -15,14 +15,7 @@ class MemberController extends Controller
 
     public function store(Request $request)
     {
-        $member = Member::create([
-            'firstname' => $request->firstname,
-            'lastname' => $request->lastname,
-            'email' => $request->email,
-            'phone' => $request->phone,
-            'state' => $request->state,
-            'address' => $request->address,
-        ]);
+        $member = Member::create($request->all());
 
         return redirect()->route('membership')->with('success', 'Registration Successfull');
     }
