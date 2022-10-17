@@ -19,7 +19,7 @@ use App\Http\Controllers\DashboardController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Route::get('/membership', function () {
     return view('membership');
@@ -36,6 +36,10 @@ Route::get('/team', function () {
 Route::get('/news', function () {
     return view('news');
 })->name('news');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
 
 Auth::routes();
 

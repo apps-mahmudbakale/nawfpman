@@ -137,7 +137,114 @@
 
 						<div class="row pb-4">
 							<div class="col">
-											
+									
+
+					<div class="row">
+						<div class="col-md-7 order-2">
+							<div class="overflow-hidden">
+								<h2 class="text-color-dark font-weight-bold text-8 mb-0 pt-0 mt-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">John Doe</h2>
+							</div>
+							<div class="overflow-hidden mb-3">
+								<p class="font-weight-bold text-primary text-uppercase mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="500" style="animation-delay: 500ms;">CEO</p>
+							</div>
+							<p class="lead appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam <a href="#">vehicula</a> sit amet enim ac sagittis. Curabitur eget leo varius, elementum mauris eget, egestas quam. Donec ante risus, dapibus sed lectus non, lacinia vestibulum nisi. Morbi vitae augue quam. Nullam ac laoreet libero.</p>
+							<p class="pb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" style="animation-delay: 800ms;">Consectetur adipiscing elit. Aliquam iaculis sit amet enim ac sagittis. Curabitur eget leo varius, elementum mauris eget, egestas quam.</p>
+							<hr class="solid my-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900" style="animation-delay: 900ms;">
+							<div class="row align-items-center appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" style="animation-delay: 1000ms;">
+								<div class="col-lg-6">
+									<a href="#" class="btn btn-modern btn-dark mt-3">Get In Touch</a>
+									<a href="#" class="btn btn-modern btn-primary mt-3">Hire Me</a>
+								</div>
+								<div class="col-sm-6 text-lg-end my-4 my-lg-0">
+									<strong class="text-uppercase text-1 me-3 text-dark">follow me</strong>
+									<ul class="social-icons float-lg-end">
+										<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+										<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+										<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5 order-md-2 mb-4 mb-lg-0 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" style="animation-delay: 100ms;">
+							<img src="img/team/team-1.jpg" class="img-fluid" alt="">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col">
+							<hr class="solid my-5">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-5 order-md-2 mb-4 mb-lg-0 appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter" style="animation-delay: 100ms;">
+							<img src="img/team/team-2.jpg" class="img-fluid" alt="">
+						</div>
+						<div class="col-md-7 order-2">
+							<div class="overflow-hidden">
+								<h2 class="text-color-dark font-weight-bold text-8 mb-0 pt-0 mt-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">Jessica Doe</h2>
+							</div>
+							<div class="overflow-hidden mb-3">
+								<p class="font-weight-bold text-primary text-uppercase mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="500" style="animation-delay: 500ms;">Marketing</p>
+							</div>
+							<p class="lead appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam <a href="#">vehicula</a> sit amet enim ac sagittis. Curabitur eget leo varius, elementum mauris eget, egestas quam. Donec ante risus, dapibus sed lectus non, lacinia vestibulum nisi. Morbi vitae augue quam. Nullam ac laoreet libero.</p>
+							<p class="pb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" style="animation-delay: 800ms;">Consectetur adipiscing elit. Aliquam iaculis sit amet enim ac sagittis. Curabitur eget leo varius, elementum mauris eget, egestas quam.</p>
+							<hr class="solid my-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900" style="animation-delay: 900ms;">
+							<div class="row align-items-center appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" style="animation-delay: 1000ms;">
+								<div class="col-lg-6">
+									<a href="#" class="btn btn-modern btn-dark mt-3">Get In Touch</a>
+									<a href="#" class="btn btn-modern btn-primary mt-3">Hire Me</a>
+								</div>
+								<div class="col-sm-6 text-lg-end my-4 my-lg-0">
+									<strong class="text-uppercase text-1 me-3 text-dark">follow me</strong>
+									<ul class="social-icons float-lg-end">
+										<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+										<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+										<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col">
+							<hr class="solid my-5">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-7 order-2">
+							<div class="overflow-hidden">
+								<h2 class="text-color-dark font-weight-bold text-8 mb-0 pt-0 mt-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">Melinda Doe</h2>
+							</div>
+							<div class="overflow-hidden mb-3">
+								<p class="font-weight-bold text-primary text-uppercase mb-0 appear-animation animated maskUp appear-animation-visible" data-appear-animation="maskUp" data-appear-animation-delay="300" style="animation-delay: 300ms;">Design</p>
+							</div>
+							<p class="lead appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam <a href="#">vehicula</a> sit amet enim ac sagittis. Curabitur eget leo varius, elementum mauris eget, egestas quam. Donec ante risus, dapibus sed lectus non, lacinia vestibulum nisi. Morbi vitae augue quam. Nullam ac laoreet libero.</p>
+							<p class="pb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" style="animation-delay: 800ms;">Consectetur adipiscing elit. Aliquam iaculis sit amet enim ac sagittis. Curabitur eget leo varius, elementum mauris eget, egestas quam.</p>
+							<hr class="solid my-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900" style="animation-delay: 900ms;">
+							<div class="row align-items-center appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" style="animation-delay: 1000ms;">
+								<div class="col-lg-6">
+									<a href="#" class="btn btn-modern btn-dark mt-3">Get In Touch</a>
+									<a href="#" class="btn btn-modern btn-primary mt-3">Hire Me</a>
+								</div>
+								<div class="col-sm-6 text-lg-end my-4 my-lg-0">
+									<strong class="text-uppercase text-1 me-3 text-dark">follow me</strong>
+									<ul class="social-icons float-lg-end">
+										<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+										<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+										<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5 order-md-2 mb-4 mb-lg-0 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" style="animation-delay: 100ms;">
+							<img src="img/team/team-4.jpg" class="img-fluid" alt="">
+						</div>
+					</div>
+
+						
 							</div>
 						</div>
 
@@ -147,52 +254,7 @@
 			</div>
 
 			<footer id="footer" class="mt-0">
-				{{-- <div class="container my-4">
-					<div class="row py-5">
-						<div class="col-md-5 col-lg-3 mb-5 mb-lg-0">
-							<h5 class="text-6 text-transform-none font-weight-semibold text-color-light mb-4">Contact Details</h5>
-							<p class="text-4 mb-1">NAWFPMAN 123</p>
-							<p class="text-4 mb-4 pb-1">NAWFPMAN Blvd, Suite</p>
-
-							<p class="text-5 mb-1 pt-2">Call: <a href="tel:1234567890" class="text-decoration-none">123-456-7890</a></p>
-							<p class="text-5 mb-0">Email: <a href="mailto:info@porto.com">info@porto.com</a></p>
-						</div>
-						<div class="col-md-7 col-lg-5 mb-5 mb-lg-0">
-							<h5 class="text-6 text-transform-none font-weight-semibold text-color-light mb-4">Pages</h5>
-							<div class="row">
-								<div class="col-6">
-									<p class="mb-1"><a href="elements-call-to-action.html" class="text-4 link-hover-style-1">Call to Action</a></p>
-									<p class="mb-1"><a href="elements-pricing-tables.html" class="text-4 link-hover-style-1">Pricing Tables</a></p>
-									<p class="mb-1"><a href="elements-word-rotator.html" class="text-4 link-hover-style-1">Word Rotator</a></p>
-									<p class="mb-1"><a href="elements-tooltips-popovers.html" class="text-4 link-hover-style-1">Tooltips & Popovers</a></p>
-									<p class="mb-1"><a href="elements-sticky-elements.html" class="text-4 link-hover-style-1">Sticky Elements</a></p>
-								</div>
-								<div class="col-6">
-									<p class="mb-1"><a href="elements-progressbars.html" class="text-4 link-hover-style-1">Progress Bars</a></p>
-									<p class="mb-1"><a href="elements-sections.html" class="text-4 link-hover-style-1">Sections</a></p>
-									<p class="mb-1"><a href="elements-lists.html" class="text-4 link-hover-style-1">Lists</a></p>
-									<p class="mb-1"><a href="elements-image-frames.html" class="text-4 link-hover-style-1">Image Frames</a></p>
-									<p class="mb-1"><a href="elements-testimonials.html" class="text-4 link-hover-style-1">Testimonials</a></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<h5 class="text-6 text-transform-none font-weight-semibold text-color-light mb-4">Newsletter</h5>
-							<p class="text-4 mb-1">Get all the latest informationon Sales and Offers.</p>
-							<p class="text-4">Sign up for newsletter today.</p>
-							<div class="alert alert-success d-none" id="newsletterSuccess">
-								<strong>Success!</strong> You've been added to our email list.
-							</div>
-							<div class="alert alert-danger d-none" id="newsletterError"></div>
-							<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST" class="mw-100">
-								<div class="input-group input-group-rounded">
-									<input class="form-control form-control-sm bg-light px-4 text-3" placeholder="Email Address..." name="newsletterEmail" id="newsletterEmail" type="email">
-									<button class="btn btn-primary text-color-light text-2 py-3 px-4" type="submit"><strong>SUBSCRIBE!</strong></button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div> --}}
+				
 				<div class="footer-copyright footer-copyright-style-2">
 					<div class="container py-2">
 						<div class="row py-4">
