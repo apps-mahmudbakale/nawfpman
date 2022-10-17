@@ -29,6 +29,7 @@ Route::get('/artisan-fresh', function () {
 });
 
 Route::get('/artisan', function () {
+    Artisan::call('config:cache');
     Artisan::call('migrate --seed');
  });
 
