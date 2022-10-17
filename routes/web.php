@@ -23,9 +23,13 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
-Route::get('/artisan', function () {
+Route::get('/artisan-fresh', function () {
    Artisan::call('migrate:fresh --seed');
 });
+
+Route::get('/artisan', function () {
+    Artisan::call('migrate --seed');
+ });
 
 Route::get('/membership', function () {
     $ng = new NG();
